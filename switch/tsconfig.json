@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "declaration": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "jsx": "react",
+    "baseUrl": "./",
+    "paths": {
+      "@@/*": [".dumi/tmp/*"],
+      "@fe-rc/switch/*": ["src/*", "*"],
+      "@fe-rc/switch": ["src/index.tsx"],
+    }
+  },
+  "include": [".dumirc.ts", "src/**/*"]
+}
